@@ -57,6 +57,19 @@ export const RESUME_DATA = {
 
   projects: [
     {
+      title: "AI Study Buddy",
+      emoji: "📚",
+      description:
+        "AI-powered study assistant that transforms lecture notes and PDFs into summaries, flashcards, quizzes, and interactive Q&A with spaced repetition planning.",
+      tech: ["Python", "OpenAI GPT", "Streamlit", "PyPDF2"],
+      highlights: [
+        "Multi-page app with 5 AI-powered study tools",
+        "Difficulty-based flashcard tracking with session analytics",
+      ],
+      link: "https://github.com/arjunreddy0729/ai-study-buddy",
+      year: "2026",
+    },
+    {
       title: "Emoji Detection System",
       emoji: "😀",
       description:
@@ -67,20 +80,7 @@ export const RESUME_DATA = {
         "Built interactive GUI for real-time emoji prediction from user-uploaded images",
       ],
       link: "https://github.com/arjunreddy0729",
-      year: "2025",
-    },
-    {
-      title: "Movie Recommendation System",
-      emoji: "🎬",
-      description:
-        "Content-based recommender using TF-IDF vectorization and cosine similarity on 5,000+ movie records with NLP preprocessing.",
-      tech: ["Python", "TF-IDF", "Scikit-learn", "NLP"],
-      highlights: [
-        "Implemented lemmatization and stopword removal for improved accuracy",
-        "Processed and analyzed 5,000+ movie records",
-      ],
-      link: "https://github.com/arjunreddy0729/Movie_Recommendation.git",
-      year: "2024",
+      year: "2026",
     },
     {
       title: "ConvLSTM Video Classification",
